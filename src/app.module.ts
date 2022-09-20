@@ -6,7 +6,7 @@ import databaseConfig from './config/database.config';
 import authConfig from './config/auth.config';
 import appConfig from './config/app.config';
 import mailConfig from './config/mail.config';
- import fileConfig from './config/file.config';
+import fileConfig from './config/file.config';
 import facebookConfig from './config/facebook.config';
 import googleConfig from './config/google.config';
 import twitterConfig from './config/twitter.config';
@@ -37,7 +37,7 @@ import { DataSource } from 'typeorm';
         authConfig,
         appConfig,
         mailConfig,
-        // fileConfig,
+        fileConfig,
         facebookConfig,
         googleConfig,
         twitterConfig,
